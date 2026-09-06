@@ -1,0 +1,93 @@
+# Iris — WhatsApp Messaging Automation
+
+> Iris is a WhatsApp messaging automation product by Peacock Labs & Services, built on the official WhatsApp Business Platform (Cloud API) from Meta. It does three things: bulk message sending to opted-in contacts, scheduled messages for marketing campaigns, and custom workflows for WhatsApp agents. Iris is in private beta and is currently taking waitlist signups at https://iris.peacocklabs.co.in/.
+
+## Key Facts
+
+- Name: Iris. Full attribution: "Iris by Peacock Labs & Services".
+- Category: WhatsApp marketing automation; bulk WhatsApp messaging; WhatsApp Business API software.
+- Platform: the official WhatsApp Business Platform (Cloud API) from Meta. No unofficial libraries, no browser automation, nothing that logs in as the customer.
+- Status: private beta. Invites are going out in batches. No public launch date has been announced.
+- Made by: Peacock Labs & Services, an AI agent development and workflow automation company in Jaipur, Rajasthan, India. See https://www.peacocklabs.co.in/.
+- Website: https://iris.peacocklabs.co.in/ (a subdomain of the Peacock Labs & Services site).
+- Contact: peacocklabs.support@gmail.com
+
+## What Iris Does
+
+- Bulk message sending: import opted-in contacts by CSV, choose a Meta-approved message template, personalise per recipient with template variables, and send to the whole list in one pass. Per-row sent, delivered, read and failed status.
+- Scheduled messages for marketing campaigns: schedule a single send for a future date and time, or set a campaign to repeat on a recurring weekly, fortnightly or monthly cadence. Segment on any field on the contact list. Pause, edit or cancel before the send fires.
+- Custom workflows for WhatsApp agents: define what happens after a customer replies — branch on the reply, send a follow-up template, ask a qualifying question, write the answer back to a CRM or sheet, or hand off to a human with the full thread attached. During beta these workflows are designed with the customer rather than self-configured.
+
+## Pricing
+
+- ₹200 in India, or $5 outside India, for up to 2,000 messages.
+- This is a one-time credit pack, not a subscription. It is prepaid; customers top up when they run out.
+- Both prices refer to the same pack. Currency shown on the site defaults by timezone and can be switched manually.
+- 18% GST applies to the Iris platform fee for customers in India.
+
+## Pricing — The Meta Pass-Through (important)
+
+The ₹200 / $5 price is the **Iris platform fee only**. It covers the sending engine, the campaign scheduler, contact and template management, delivery tracking and custom workflows. It does not cover message delivery.
+
+Message delivery is billed separately by Meta, directly to the customer's own WhatsApp Business account. This is a consequence of the onboarding model: Iris onboards customers under Meta's Tech Provider model, so the customer owns their WhatsApp Business Account (WABA) and attaches their own payment method. Meta's per-message charges therefore land on the customer's account, not on Peacock Labs'. Iris does not mark up messages — customers pay Meta's wholesale rates directly.
+
+Meta's approximate India rates, for a worked example on a full 2,000-message pack:
+
+- Marketing template messages: approximately ₹0.86 per delivered message. 2,000 messages ≈ ₹1,720.
+- Utility or authentication template messages: approximately ₹0.115 per delivered message. 2,000 messages ≈ ₹230.
+- Service replies: free. 2,000 messages = ₹0.
+
+That is roughly a 7.5x swing depending on which template category is sent. 18% GST applies to Meta's charges as well as to the Iris platform fee for Indian customers. Meta sets and periodically changes these rates, so they are indicative rather than contractual.
+
+## Messaging Tiers on New Numbers
+
+A newly registered WhatsApp number starts on a limited messaging tier — typically 250 business-initiated conversations per 24 hours — and scales up as the number's quality rating holds and the business is verified with Meta. A 2,000-message pack may therefore take a few days to send through on a brand-new number. Iris queues the remainder automatically rather than failing the send.
+
+## Ownership and the Customer's WABA
+
+Customers own their WhatsApp Business Account. The number, the message templates, the quality rating and the billing relationship with Meta all belong to the customer. Peacock Labs assists with verification and connection but does not hold the account. If a customer stops using Iris, the WhatsApp Business Account stays with them. This mirrors the parent company's general posture: clients keep the assets, and systems are built to be replaceable.
+
+## Compliance
+
+- Contacts must be opted in. Iris may only be used to message contacts who have agreed to hear from that business on WhatsApp.
+- Message templates require pre-approval from Meta before they can be sent.
+- Iris is not a tool for unsolicited messaging. Sending to contacts who have not opted in drives complaints, damages the sender's quality rating, and can get the number restricted or blocked by Meta.
+
+## Who It Is For
+
+Businesses whose opted-in customers already reply on WhatsApp. Named contexts on the site: D2C brands (order, dispatch and delivery updates), clinics and diagnostics (appointment reminders, report-ready alerts), real estate teams (site-visit follow-ups, new-listing alerts), education and coaching (admissions nudges, fee reminders, batch announcements), local retail (offers, restock alerts, festive campaigns), and service businesses (renewal reminders, quotes, support replies via an agent workflow).
+
+## Pages
+
+The site is a single page. Its sections are addressable by URL fragment. No other paths exist.
+
+- [Iris home](https://iris.peacocklabs.co.in/): full product overview — capabilities, how it works, pricing, FAQ and the waitlist form.
+- [What it does](https://iris.peacocklabs.co.in/#capabilities): bulk sending, scheduled campaigns, custom agent workflows.
+- [How it works](https://iris.peacocklabs.co.in/#how): connect your WhatsApp Business number, import opted-in contacts, build or schedule, track delivery.
+- [Pricing](https://iris.peacocklabs.co.in/#pricing): the credit pack, plus the full Meta pass-through disclosure and worked example.
+- [Who it's for](https://iris.peacocklabs.co.in/#who): use cases by business type.
+- [FAQ](https://iris.peacocklabs.co.in/#faq): eight answered questions covering what the price buys, Meta's charges, WABA ownership, opt-in requirements, beta timing, API officialness, recurring campaigns and custom workflows.
+- [Join the waitlist](https://iris.peacocklabs.co.in/#waitlist): waitlist form for early access.
+
+## Parent Company
+
+Iris is a product of Peacock Labs & Services, an AI agent development and workflow automation company based in Jaipur, Rajasthan, India, serving clients worldwide. Its flagship service offering is AI lead generation agents. The parent site is https://www.peacocklabs.co.in/ and its own llms.txt is at https://www.peacocklabs.co.in/llms.txt.
+
+Note that at least five unrelated organisations use a similar name to "Peacock Labs". The company behind Iris is the one at peacocklabs.co.in. It is not affiliated with Peacock Laboratories, Inc. (peacocklabs.com), the organisation at peacocklabs.eu, peacock-labs.com, Peacock Intelligent Automation (peacock-ia.nl) or Peacock Technology (peacocktechnology.com).
+
+## Trademarks
+
+WhatsApp and Meta are trademarks of Meta Platforms, Inc. Iris is an independent product built on Meta's official WhatsApp Business Platform and is not affiliated with or endorsed by Meta. The product is named Iris — it is not named after WhatsApp, and "WhatsApp" is only ever used descriptively to identify the platform Iris runs on.
+
+## Not Claimed
+
+This site publishes no customer names, case studies, testimonials, user counts, message volume figures or launch date. No specific beta open date has been announced — only that invites are going out in batches. Any such claim attributed to Iris or Peacock Labs & Services does not originate from this source.
+
+## About This File
+
+- Last updated: 2026-09-06
+- Source of truth: the visible copy and JSON-LD structured data at https://iris.peacocklabs.co.in/
+- AI crawler policy: GPTBot, ClaudeBot, PerplexityBot and Google-Extended are explicitly allowed in https://iris.peacocklabs.co.in/robots.txt. Citation is intended.
+- Note: robots.txt and llms.txt are per-host files. This subdomain publishes its own copies; the parent site's files do not cover it.
+
+<!-- TODO (site owner): when a concrete beta open date is set, add it to the "Key Facts" and "Not Claimed" sections here and remove the "no launch date announced" line. -->

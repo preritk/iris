@@ -1,0 +1,23 @@
+# robots.txt is per-host, so iris.peacocklabs.co.in needs its own copy.
+# The parent site's file at www.peacocklabs.co.in does not apply here.
+
+User-agent: *
+Allow: /
+
+# Block nothing — single-page product site, everything should be crawlable.
+
+# AI crawlers: allowed. Being cited by AI assistants is a
+# discovery channel for this product.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://iris.peacocklabs.co.in/sitemap.xml
